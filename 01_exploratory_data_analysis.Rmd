@@ -7,7 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**Data** exists in two tyes:
+**Data** exists in two types:
 
 * **unstructured** data - text, image, video, clickstream
 * **structured** data - strings, numbers
@@ -25,8 +25,12 @@ knitr::opts_chunk$set(echo = TRUE)
 * **continuous**
 
 
+**Rectangular** vs. **nonrectangular** data:
 
-```{r}
-
-
-```
+* rectangular:
+    * data frame
+    * matrix
+* nonrectangular:
+    * time series
+    * spatial data (coordinates)
+    * graph/network data (relationships)
